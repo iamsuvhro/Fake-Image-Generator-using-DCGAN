@@ -14,3 +14,5 @@ Here are the steps a GAN takes:
 
 <h1>Real Images</h1>
 <center><img src="/Images/real_samples.png"></center>
+<h1>After Generated Fake Images using GAN</h1>
+<center><img src="/Images/fake_samples_epoch_002.png"></center>
