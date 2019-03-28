@@ -11,3 +11,6 @@ Here are the steps a GAN takes:
 :> The generator takes in random numbers and returns an image.<br>
 :> This generated image is fed into the discriminator alongside a stream of images taken from the actual, ground-truth dataset.<br>
 :> The discriminator takes in both real and fake images and returns probabilities, a number between 0 and 1, with 1 representing a prediction of authenticity and 0    representing fake.
+
+<h1>Real Images</h1>
+<center><img src="/Images/real_samples.png"></center>
