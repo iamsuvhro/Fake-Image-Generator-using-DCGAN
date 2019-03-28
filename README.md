@@ -5,3 +5,9 @@ Let’s say we’re trying to do something more banal than mimic the Mona Lisa. 
 
 Meanwhile, the generator is creating new, synthetic images that it passes to the discriminator. It does so in the hopes that they, too, will be deemed authentic, even though they are fake. The goal of the generator is to generate passable hand-written digits: to lie without being caught. The goal of the discriminator is to identify images coming from the generator as fake.
 
+<h1>Fake Image Generator using Deep Convolutional Generative Adversarial Network</h1>
+Here are the steps a GAN takes:
+
+:> The generator takes in random numbers and returns an image.<br>
+:> This generated image is fed into the discriminator alongside a stream of images taken from the actual, ground-truth dataset.<br>
+:> The discriminator takes in both real and fake images and returns probabilities, a number between 0 and 1, with 1 representing a prediction of authenticity and 0    representing fake.
